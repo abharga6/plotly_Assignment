@@ -17,7 +17,7 @@ library(plotly)
 ## Car weight vs Mileage
 
 ```{r cars}
-plot_ly(x = mtcars$wt , y = mtcars$mpg , type='scatter', mode = "markers", color = mtcars$disp ) %>% layout(title ="Car weight vs Mileage", scene = list( xaxis=list(title="Car weight in tonns"), yaxis= list(title="Mileage in mpg")))
+plot_ly(x = mtcars$wt , y = mtcars$mpg , type='scatter', mode = "markers", color = mtcars$disp ) %>% layout(title ="Car weight vs Mileage", xaxis=list(title="Car weight in tonns"), yaxis= list(title="Mileage in mpg"))
 ```
 
 ##Thank!!
